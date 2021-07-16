@@ -3,4 +3,5 @@ This is my first attempt at creating a webpage - I will try to imitate Googles h
 Today; I experimented with forms in HTML - I added text boxes, radio buttons, checkboxes, submit buttons and generic buttons.
 I also tried using and external CSS style - linking to it within the HTML file. The page still looks shit but its still fun.
 
-Next: Try Internal and Inline CSS.
+Update; Turns out I was using both of the other types of CSS already in this page, I'm just stupid.
+I tried aligning an element in the center and also aligned text in the center. I've done some testing and playing with all of this now and I'm going to try and accurately recreated the google homepage. Wish me luck!
