@@ -1,29 +1,45 @@
 <html>
-    <head>
+    <head></head>
+    <body>
+    <header>
         <link rel="stylesheet" href="mystyle.css">
-    </head>
-    <ul>
-        <li><a href="google.about">About</a></li>
-        <li><a href="google.store">Store</a></li>
-        <li style="float:right"><a href="google.images">Images</a></li>
-        <li style="float:right"><a href="gmail.com">Gmail</a></li>
-    </ul>
-    <div class="center">
-    <img src="googlelogo_color_272x92dp.png" alt="Google"; class="center">
-    </div>
-
-    <form>
-  <input type="text" id="search" name="search" class="center"><br> 
-  <div class="center">
-    <div class="center">
-        <button type="button"; class="button"; name="search"; value="text">Search</button><button type="button"; class="button";>I'm feeling lucky!</button><br>
+    </header>
+    <ul id="topNav">
+        <li><a href>About</a></li>
+        <li><a href>Store</a></li>
+        <div style="float:right">
+        <li><a href>Images</a></li>
+        <li><a href>Gmail</a></li>
+        <li><a href><img id="cubes" src="appscubes.png"></a></li>
+        <li><a href="signIn"; id="signIn">Sign in</a></li>
         </div>
-    </div>
-    <ul1>
-        <li><a href="google.about">About</a></li>
-        <li><a href="google.store">Advertising</a></li>
-        <li><a href="google.images">Business</a></li>
-        <li><a href="gmail.com">How Search works</a></li>
     </ul>
-</form>
+    <main>
+        <div id="logo">
+        <img src="googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <form>
+            <input type="text" id="search" name="search" class="center"><br> 
+                <div class="center">
+                <button type="button"; class="button"; name="search"; value="text">Search</button>
+                <button type="button"; class="button";>I'm feeling lucky!</button><br>
+                </div>
+        </form>
+    </main>
+        <footer id="bottomNavBar">
+            <form>
+                <ul class="botNav"; style="float:left">
+                <li><a href>About</a></li>
+                <li><a href>Advertising</a></li>
+                <li><a href>Business</a></li>
+                <li><a href>How Search works</a></li>
+                </ul>
+                <ul class="botNav"; style="float:right">
+                <li><a href>Settings</a></li>
+                <li><a href>Terms</a></li>
+                <li><a href>Settings</a></li>
+                </ul>
+            </form>
+        </footer>
+    </body>
 </html>

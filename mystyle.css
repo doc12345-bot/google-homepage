@@ -8,15 +8,14 @@ body {
     display: block;
     float: center;
 }
-#bottom {
-    position: absolute;
-    bottom: 0;
-    left:0;
-    color:chartreuse;
-}
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
+.logo {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .button {
     font-size: 14px;
@@ -29,11 +28,6 @@ body {
     display: inline-block;
 }
 .button:hover {background:#eee}
-.container{
-    height:200px;
-    position:relative;
-    border: 3px solid green;
-}
 .center{
     margin:0;
     position: relative;
@@ -48,6 +42,18 @@ ul {
     padding: 0;
     background-color: inherit;
     overflow:hidden;
+}
+.signIn {
+    background-color: #4583;
+    color:white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size:13px;
+    font-weight:bold;
+    margin: 0px 15px;
 }
 li {
     float: left;
@@ -66,12 +72,12 @@ a {
     display: inline-block;
     text-decoration: none;
 }
-ul1 {
+.botNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: inherit;
+    background: color #f2f2f2;;
     overflow:hidden;
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
