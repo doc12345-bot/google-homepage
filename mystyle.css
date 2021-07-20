@@ -1,50 +1,53 @@
 body {
     background-color:rgb(255, 255, 255);
 }
-.center {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 50%;
+.search {
+    margin: center;
     display: block;
-    float: center;
+    top:auto;
+    right:auto;
+    left:auto;
+    position:relative;
+    left: 50%;
 }
 .logo {
     display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
+    margin:center;
+    position: absolute;
+    left: 0;
+    right:0;
     margin-left: auto;
+    margin-right:auto;
+    width:100px;
 }
 .button {
     font-size: 14px;
     font-family: arial, sans-serif;
-    color:#222;
+    color:#646368;
     border: none;
-    background-color: inherit;
+    background-color: #f4f4f4;
     padding: 14px 28px;
     cursor: pointer;
     display: inline-block;
-}
-.button:hover {background:#eee}
-.center{
-    margin:0;
-    position: relative;
-    top:50%;
+    border-radius: 10px;
+    top: 50%;
+    position:relative;
     left:50%;
-    -ms-transform:translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
-ul {
+.button:hover {
+    background:#eee;
+    border:grey;
+}
+.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: inherit;
     overflow:hidden;
+    position:relative;
 }
 .signIn {
-    background-color: #4583;
+    background-color: rgba(53, 100, 241, 0.849);
     color:white;
     text-align: center;
     border: none;
@@ -72,12 +75,19 @@ a {
     display: inline-block;
     text-decoration: none;
 }
-.botNav {
-    list-style-type: none;
+.navbar {
     margin: 0;
     padding: 0;
-    background: color #f2f2f2;;
+    background-color:#c5c4c9;;
     overflow:hidden;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    position: relative;
+}
+.navbar a:hover{
+    text-decoration: underline;
 }

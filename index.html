@@ -4,42 +4,36 @@
     <header>
         <link rel="stylesheet" href="mystyle.css">
     </header>
-    <ul id="topNav">
-        <li><a href>About</a></li>
-        <li><a href>Store</a></li>
-        <div style="float:right">
-        <li><a href>Images</a></li>
-        <li><a href>Gmail</a></li>
-        <li><a href><img id="cubes" src="appscubes.png"></a></li>
-        <li><a href="signIn"; id="signIn">Sign in</a></li>
-        </div>
-    </ul>
+    <div class="topnav" id="topnav">
+        <li><a>About</a></li>
+        <li><a>Store</a></li>
+            <div style="float:right">
+                <li><a>Images</a></li>
+                <li><a>Gmail</a></li>
+                <li><a><img id="cubes" src="appscubes.png"></a></li>
+                <li><a id="signIn" class="signIn">Sign in</a></li>
+            </div>
+    </div>
     <main>
-        <div id="logo">
+        <div id="logo" class="logo">
         <img src="googlelogo_color_272x92dp.png" alt="Google">
         </div>
-        <form>
-            <input type="text" id="search" name="search" class="center"><br> 
-                <div class="center">
-                <button type="button"; class="button"; name="search"; value="text">Search</button>
-                <button type="button"; class="button";>I'm feeling lucky!</button><br>
-                </div>
+        <form id="search">
+            <input type="text" name="search" class="search"><br> 
+            <input type="button" class="button" name="search" value="Search" style="float:left">
+            <input type="button" class="button" name="lucky" value="I'm Feeling Lucky" style="float:right">
         </form>
     </main>
-        <footer id="bottomNavBar">
-            <form>
-                <ul class="botNav"; style="float:left">
-                <li><a href>About</a></li>
-                <li><a href>Advertising</a></li>
-                <li><a href>Business</a></li>
-                <li><a href>How Search works</a></li>
-                </ul>
-                <ul class="botNav"; style="float:right">
-                <li><a href>Settings</a></li>
-                <li><a href>Terms</a></li>
-                <li><a href>Settings</a></li>
-                </ul>
-            </form>
+        <footer class="navbar">
+            <a>About</a>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search works</a>
+            <div style="float:right"> 
+            <a>Settings</a>
+            <a>Terms</a>
+            <a>Settings</a>
+            </div>
         </footer>
     </body>
 </html>
