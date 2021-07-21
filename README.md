@@ -12,3 +12,5 @@ July 18th - Realigned the navigation bar at the top and split the buttons into t
 Jul 19th - General tidying and cleaning plus I tried to sort out the placement of items on the page. Still struggling but will try again next time.
 
 July20th - Fixed the bottom navbar! I also tidied up some part of the page. Using border-radius, I was able to add rounded corners to the search buttons and also changed the display when a user hover's over them. I tried again to fix the positioning but not everything is bunched together! Back to the drawing board. Oh and I sorted the sign in button!
+
+ July 21st - Finally solved the position problem! In the style sheet I added a margin top to main and it bumped everything down and into the right place. I also hade to amend the position of the buttons and the bar, which still aren't right. I also stylized the the search bar a little but can't quite get it right. Almost there!
