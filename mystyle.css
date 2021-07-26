@@ -23,7 +23,7 @@ body {
     margin-left: 33%;
     display: flex;
     flex: 1;
-    background: url(/Users/stuartdocherty/WebDev/the_odin_project/google-homepage/outline_search_black_24dp\ copy.png) no-repeat scroll 10px 6px;
+    background: url("search-big.png") no-repeat scroll 10px 6px;
     background-size: 30px;
     box-sizing: content-box;
     box-lines: 1px;
